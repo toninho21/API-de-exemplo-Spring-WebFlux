@@ -11,7 +11,7 @@ public class HeroesApiApplication {
   public static void main(String[] args) {
 
     SpringApplication.run(HeroesApiApplication.class, args);
-    System.out.println("super poderes com webflux");
+    System.out.println("Super poderes com webflux");
   }
 
 }

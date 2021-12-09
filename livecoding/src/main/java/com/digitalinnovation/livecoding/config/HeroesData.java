@@ -10,7 +10,7 @@ import com.amazonaws.services.dynamodbv2.document.Table;
 import static com.digitalinnovation.livecoding.constants.HeroesConstant.ENDPOINT_DYNAMO;
 import static com.digitalinnovation.livecoding.constants.HeroesConstant.REGION_DYNAMO;
 
-public class HeroesData {
+public class HeroesData  {
   public static void main(String[] args) throws Exception {
 
     AmazonDynamoDB client = AmazonDynamoDBClientBuilder.standard()
@@ -34,7 +34,7 @@ public class HeroesData {
 
     Item hero3 = new Item()
       .withPrimaryKey("id", "4")
-      .withString("name", "Capita marvel")
+      .withString("name", "Capitao marvel")
       .withString("universe", "marvel")
       .withNumber("films", 2);
 
